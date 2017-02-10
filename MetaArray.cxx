@@ -1,4 +1,9 @@
-#include <cstddef>
+//
+// Main (and only) project file
+//
+
+
+#include <cstddef> // std::size_t
 
 // I prefere the specialization first because it does all the work
 // This is required to do so.
