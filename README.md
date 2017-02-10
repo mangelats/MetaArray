@@ -2,6 +2,8 @@
 This project is a small C++17 helper class that allows to create and modify a variadic template parameter easily.
 
 I always understand everythong better if it's an example, so here it goes (this code does **NOT** compile, they are separate code parts)
+## Installation
+Download the file `MetaArray.cxx` to your project and import it as a header.
 
 ## Define the array
 ```cpp
