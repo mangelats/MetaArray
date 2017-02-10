@@ -29,7 +29,7 @@ struct MetaArray <T, first, array...> {
 
 	using RemoveFront = MetaArray<T, array...>;
 	using Reverse = typename RemoveFront::Reverse::template PushBack<first>;	// Reverse uses RemoveFront
-	using RemoveBack = typename Reverse::RemoveFront::Reverse;					// RemoveBack uses Reverse
+	using RemoveBack = typename Reverse::RemoveFront::Reverse;			// RemoveBack uses Reverse
 
 
 	// Convertion to regular array and its size.
