@@ -40,7 +40,7 @@ struct MetaArray <T, first, array...> {
 	// Forwards this template parameters to another class.
 	//Usefull for modifying the array and ten use it in another class.
 	//It may require a second step if adding more parameters is required.
-	template<template <typename UT, UT ...> typename U> using Forward = U<T, array...>;
+	template<template <typename UT, UT ...> typename U> using Forward = U<T, first, array...>;
 };
 
 
